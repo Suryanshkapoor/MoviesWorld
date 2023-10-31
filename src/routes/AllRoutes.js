@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Route, Routes} from 'react-router-dom';
 import {MovieList, MovieDetails, Search, PageNotFound, About, Contact, Privacy, License} from '../pages';
 

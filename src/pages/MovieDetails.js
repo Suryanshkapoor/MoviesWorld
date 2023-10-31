@@ -1,4 +1,4 @@
-import React from "react";
+
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import TestImg from "../assets/TestImg.jpeg";
@@ -21,10 +21,9 @@ export const MovieDetails = () => {
       );
       const json = await responce.json();
       setMovie(json);
-      console.log(movie);
     }
     fetchMovie();
-  }, [params.id]);
+  },[movie, params.id]);
 
   return (
     <main>
