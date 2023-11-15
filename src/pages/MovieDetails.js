@@ -75,8 +75,8 @@ export const MovieDetails = () => {
               </p>
             </div>
           </div>
-          <p className="my-5"><span className="font-bold">Budget :</span> {movie.budget}</p>
-          <p className="my-5"><span className="font-bold">Revenue :</span> {movie.revenue}</p>
+          <p className="my-5"><span className="font-bold">Budget :</span> ${movie.budget} </p>
+          <p className="my-5"><span className="font-bold">Revenue :</span> ${movie.revenue} </p>
           <p className="my-5"><span className="font-bold">RunTime :</span> {movie.runtime} mins.</p>
           <p className="my-5"><span className="font-bold">Release Date :</span> {movie.release_date}</p>
           <p className="my-5"><span className="font-bold">IMDB code : </span><a href={`https://www.imdb.com/title/${movie.imdb_id}`} target="_Blank" rel="noreferrer">    {movie.imdb_id}</a></p>
