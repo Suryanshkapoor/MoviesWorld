@@ -35,7 +35,7 @@ export const Header = () => {
             alt="Moviesworld Logo"
           />
           <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-white">
-            Movies World
+            MOVIE WORLD
           </span>
         </Link>
         <div className="flex md:order-2">
